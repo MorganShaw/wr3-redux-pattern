@@ -1,8 +1,9 @@
 import React from 'react';
+import {connect} from 'react-redux';
 
-const Message = () => {
+const Message = (props) => {
     return <div>
-        <p>Message Content Here</p>
+        <p>{props.message}</p>
     </div>
 }
 

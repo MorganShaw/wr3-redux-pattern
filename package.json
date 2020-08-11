@@ -2,7 +2,7 @@
   "name": "wr3-redux-pattern",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http:/localhost:4000",
+  "proxy": "http://localhost:4000",
   "main": "server/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -12,7 +12,9 @@
     "express": "^4.17.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-redux": "^7.2.1",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
